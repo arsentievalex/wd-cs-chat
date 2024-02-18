@@ -11,7 +11,6 @@ urls = ["https://www.workday.com/en-us/customer-stories/i-p/kainos-taming-growth
         "https://www.workday.com/en-us/customer-stories/i-p/loandepot-at-home-with-all-the-data.html",
         "https://www.workday.com/en-us/customer-stories/i-p/life-care-services-budgeting-health-check-delivers-results.html",
         "https://www.workday.com/en-us/customer-stories/a-h/coventry-building-uk-payroll-simpler-efficient-effective.html",
-        "https://www.workday.com/en-us/customer-stories/a-h/cushman-wakefield-saves-with-workday-extend.html",
         ]
 
 st.set_page_config(page_title="Chat with WD website",  layout="centered",
@@ -19,6 +18,24 @@ st.set_page_config(page_title="Chat with WD website",  layout="centered",
 
 st.header("Chat with Workday website")
 st.subheader("This chatbot is trained on selected Workday's customer stories. Ask me anything about Workday products and customer stories.")
+
+with st.expander('See more'):
+    """
+    The chatbot was trained on the following web pages:
+    - [Kainos: Taming Growth Challenges with Workday Financials](https://www.workday.com/en-us/customer-stories/i-p/kainos-taming-growth-challenges-workday-financials.html)
+    - [Veolia: Streamlined Process for Expenses, Improves Efficiencies](https://www.workday.com/en-us/customer-stories/q-z/veolia-streamlined-process-expenses-improves-efficiencies.html)
+    - [Life Time: Empowers Frontline Workers](https://www.workday.com/en-us/customer-stories/i-p/life-time-empowers-frontline-workers.html)
+    - [Chess HR: Tools and Talent Enhance Capacity for Student Support](https://www.workday.com/en-us/customer-stories/a-h/chess-hr-tools-and-talent-enhance-capacity-student-support.html)
+    - [loanDepot: At Home with All the Data](https://www.workday.com/en-us/customer-stories/i-p/loandepot-at-home-with-all-the-data.html)
+    - [Life Care Services: Budgeting Health Check Delivers Results](https://www.workday.com/en-us/customer-stories/i-p/life-care-services-budgeting-health-check-delivers-results.html)
+    - [Coventry Building: UK Payroll Simpler, Efficient, Effective](https://www.workday.com/en-us/customer-stories/a-h/coventry-building-uk-payroll-simpler-efficient-effective.html)
+    
+    Sample questions to ask:
+    - Which Workday customer previously used SAP and multiple separate systems for financial reporting?
+    - I'm looking for a customers that grew via M&A internationally and is using Workday Financial Management.
+    - I'm looking for the quantified benefit of using Workday Expenses
+    - I'm looking for a customer that is using Workday to manage their workforce and has a large number of employees.
+    """
 
 # Create a bot instance
 os.environ["OPENAI_API_KEY"] = st.secrets["openai_credentials"]["API_KEY"]
