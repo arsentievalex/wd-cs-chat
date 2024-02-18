@@ -16,8 +16,8 @@ urls = ["https://www.workday.com/en-us/customer-stories/i-p/kainos-taming-growth
 st.set_page_config(page_title="Chat with WD website",  layout="centered",
                    initial_sidebar_state="auto", menu_items=None)
 
-st.header("Chat with Workday website")
-st.subheader("This chatbot is trained on selected Workday's customer stories. Ask me anything about Workday products and customer stories.")
+st.header("Chat with Customer Stories")
+st.subheader("This chatbot is trained on selected Workday's customer stories publicly shared on the Workday website")
 
 with st.expander('See more'):
     """
