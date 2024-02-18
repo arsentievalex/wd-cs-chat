@@ -32,9 +32,10 @@ with st.expander('See more'):
     
     Sample questions to ask:
     - Which Workday customer previously used SAP and multiple separate systems for financial reporting?
-    - I'm looking for a customers that grew via M&A internationally and is using Workday Financial Management.
-    - I'm looking for the quantified benefit of using Workday Expenses
-    - I'm looking for a customer that is using Workday to manage their workforce and has a large number of employees.
+    - I'm looking for a customers that grew via M&A internationally and is using Workday Financial Management
+    - I'm looking for a customer that reduced audit time with Workday
+    - I'm looking for a customer that is using Workday to manage their workforce and has a large number of employees
+    - Is there a customer story on a healthcare company that is using Adaptive Planning?
     """
 
 # Create a bot instance
